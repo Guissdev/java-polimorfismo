@@ -1,6 +1,6 @@
-package bytebank_herdado;
 
 public class Gerente extends Funcionario {
+
 	private int senha;
 
 	public void setSenha(int senha) {
@@ -17,7 +17,7 @@ public class Gerente extends Funcionario {
 
 	public double getBonificacao() {
 		System.out.println("chamando o método de bonificacao do GERENTE");
-		return super.getBonificacao()+ super.getSalario();
+		return super.getBonificacao() + super.getSalario();
 	}
 
 }
