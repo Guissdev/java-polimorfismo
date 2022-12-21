@@ -1,5 +1,5 @@
 //Gerente eh um funcionario, Gerente herda da class FuncionarioAutenticavel
-public class Gerente extends FuncionarioAutenticavel {
+public class Gerente extends Funcionario {
 
 
 	public double getBonificacao() {
